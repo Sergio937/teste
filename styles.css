@@ -1,0 +1,70 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+      
+}
+
+.search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 400px;
+    
+}
+
+.search button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+          
+}
+
+
+.banner {
+    
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+.banner button {
+    /* Estilos para o botão */
+}
